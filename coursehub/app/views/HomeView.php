@@ -19,7 +19,7 @@ class HomeView {
         $html .= '<a href="/programmes" class="btn btn-lg" style="background:rgba(255,255,255,.15);color:#fff;border-color:rgba(255,255,255,.35)"><i class="fa fa-th-large"></i> All Programmes</a>';
         $html .= '</div></div></section>';
 
-        $html .= '<div class="stats-strip"><div class="stats-inner">';
+        $html .= '<div class="stats-strip"role="region" aria-label="Key statistics><div class="stats-inner">';
         $html .= '<div class="stat-item"><div class="num">' . $stats['programmes'] . '</div><div class="lbl">Programmes</div></div>';
         $html .= '<div class="stat-item"><div class="num">' . $stats['modules'] . '</div><div class="lbl">Modules</div></div>';
         $html .= '<div class="stat-item"><div class="num">' . $stats['staff'] . '</div><div class="lbl">Academic Staff</div></div>';
