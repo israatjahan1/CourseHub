@@ -1,5 +1,9 @@
 <?php
 declare(strict_types=1);
+/**
+ * HomeView — Renders the public homepage including hero section,
+ * statistics strip, search form, featured programmes, and why-choose-us cards.
+ */
 class HomeView {
     public function render(array $stats, array $featured): string {
         $html  = Layout::head('Welcome — Find Your Degree Programme');

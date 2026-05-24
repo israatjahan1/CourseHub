@@ -1,5 +1,9 @@
 <?php
 declare(strict_types=1);
+/**
+ * StaffView — Renders public staff directory, individual staff profiles,
+ * staff login form, portal dashboard, and profile editing interface.
+ */
 
 class StaffView
 {

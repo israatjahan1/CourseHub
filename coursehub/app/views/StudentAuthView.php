@@ -1,5 +1,9 @@
 <?php
 declare(strict_types=1);
+/**
+ * StudentAuthView — Renders student authentication pages including login,
+ * registration, password reset flow, account dashboard, and profile editing.
+ */
 class StudentAuthView
 {
     private static function h(string $v): string { return htmlspecialchars($v, ENT_QUOTES, 'UTF-8'); }

@@ -1,5 +1,9 @@
 <?php
 declare(strict_types=1);
+/**
+ * Layout — Shared layout wrapper providing HTML head, navigation bar,
+ * footer, flash messages, and consistent styling across all pages.
+ */
 
 class Layout
 {

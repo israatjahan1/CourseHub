@@ -1,5 +1,9 @@
 <?php
 declare(strict_types=1);
+/**
+ * ModuleView — Renders module listing with search and filters,
+ * programme-specific module lists, and individual module detail pages.
+ */
 
 class ModuleView
 {

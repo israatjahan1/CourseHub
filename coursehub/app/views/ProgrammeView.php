@@ -1,5 +1,9 @@
 <?php
 declare(strict_types=1);
+/**
+ * ProgrammeView — Renders programme listing page with filter support,
+ * individual programme detail pages, interest confirmation, and withdrawal form.
+ */
 class ProgrammeView {
     public function renderProgrammeList(array $programmes): string {
         $search = htmlspecialchars($_GET['search']??'',ENT_QUOTES,'UTF-8');
